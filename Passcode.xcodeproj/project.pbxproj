@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD93BD99E6368531593039C /* Pods_Passcode_PasscodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9BE90CF98A49131D3DB79C /* Pods_Passcode_PasscodeTests.framework */; };
+		4C3CD4C71ED09A4F00B3FBD7 /* RxIGListAdapterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CD4C61ED09A4F00B3FBD7 /* RxIGListAdapterDataSource.swift */; };
+		4C4BF1B41ED02B2800AD7044 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BF1B21ED02B2800AD7044 /* KeyCell.swift */; };
+		4C4BF1B51ED02B2800AD7044 /* KeyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4BF1B31ED02B2800AD7044 /* KeyCell.xib */; };
+		4C4BF1B71ED02B9B00AD7044 /* KeySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BF1B61ED02B9B00AD7044 /* KeySectionController.swift */; };
+		4CBCC0F11ECDE78800B8522C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCC0F01ECDE78800B8522C /* AppDelegate.swift */; };
+		4CBCC0F31ECDE78800B8522C /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCC0F21ECDE78800B8522C /* PasscodeViewController.swift */; };
+		4CBCC0F61ECDE78800B8522C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCC0F41ECDE78800B8522C /* Main.storyboard */; };
+		4CBCC0F81ECDE78800B8522C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCC0F71ECDE78800B8522C /* Assets.xcassets */; };
+		4CBCC0FB1ECDE78800B8522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBCC0F91ECDE78800B8522C /* LaunchScreen.storyboard */; };
+		4CBCC1061ECDE78800B8522C /* PasscodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCC1051ECDE78800B8522C /* PasscodeTests.swift */; };
+		4CBCC1111ECDF01E00B8522C /* PasscodeViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCC1101ECDF01E00B8522C /* PasscodeViewReactor.swift */; };
+		5097F8CAD89A73E9429BC903 /* Pods_Passcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FAA6B77DA433879519B306 /* Pods_Passcode.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBCC1021ECDE78800B8522C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBCC0E51ECDE78800B8522C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBCC0EC1ECDE78800B8522C;
+			remoteInfo = Passcode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5FC3B273A2F8B5A25D54C6 /* Pods-Passcode-PasscodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode-PasscodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Passcode-PasscodeTests/Pods-Passcode-PasscodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D9BE90CF98A49131D3DB79C /* Pods_Passcode_PasscodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Passcode_PasscodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3CD4C61ED09A4F00B3FBD7 /* RxIGListAdapterDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxIGListAdapterDataSource.swift; sourceTree = "<group>"; };
+		4C4BF1B21ED02B2800AD7044 /* KeyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
+		4C4BF1B31ED02B2800AD7044 /* KeyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyCell.xib; sourceTree = "<group>"; };
+		4C4BF1B61ED02B9B00AD7044 /* KeySectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySectionController.swift; sourceTree = "<group>"; };
+		4CBCC0ED1ECDE78800B8522C /* Passcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBCC0F01ECDE78800B8522C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CBCC0F21ECDE78800B8522C /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		4CBCC0F51ECDE78800B8522C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CBCC0F71ECDE78800B8522C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CBCC0FA1ECDE78800B8522C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CBCC0FC1ECDE78800B8522C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBCC1011ECDE78800B8522C /* PasscodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasscodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBCC1051ECDE78800B8522C /* PasscodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeTests.swift; sourceTree = "<group>"; };
+		4CBCC1071ECDE78800B8522C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBCC1101ECDF01E00B8522C /* PasscodeViewReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeViewReactor.swift; sourceTree = "<group>"; };
+		56FAA6B77DA433879519B306 /* Pods_Passcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Passcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DA607C5C71663F7F3416DD /* Pods-Passcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Passcode/Pods-Passcode.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1E9C33C6F9122D62082B3D /* Pods-Passcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode.release.xcconfig"; path = "Pods/Target Support Files/Pods-Passcode/Pods-Passcode.release.xcconfig"; sourceTree = "<group>"; };
+		E8FA8563A6C27970CFE7F06F /* Pods-Passcode-PasscodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode-PasscodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Passcode-PasscodeTests/Pods-Passcode-PasscodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBCC0EA1ECDE78800B8522C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097F8CAD89A73E9429BC903 /* Pods_Passcode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBCC0FE1ECDE78800B8522C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD93BD99E6368531593039C /* Pods_Passcode_PasscodeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214B5CB35B21A476125034F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56FAA6B77DA433879519B306 /* Pods_Passcode.framework */,
+				3D9BE90CF98A49131D3DB79C /* Pods_Passcode_PasscodeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CBCC0E41ECDE78800B8522C = {
+			isa = PBXGroup;
+			children = (
+				4CBCC0EF1ECDE78800B8522C /* Passcode */,
+				4CBCC1041ECDE78800B8522C /* PasscodeTests */,
+				4CBCC0EE1ECDE78800B8522C /* Products */,
+				AFA3B798769A4ECC1389C30C /* Pods */,
+				214B5CB35B21A476125034F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBCC0EE1ECDE78800B8522C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCC0ED1ECDE78800B8522C /* Passcode.app */,
+				4CBCC1011ECDE78800B8522C /* PasscodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBCC0EF1ECDE78800B8522C /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCC0F01ECDE78800B8522C /* AppDelegate.swift */,
+				4C4BF1B21ED02B2800AD7044 /* KeyCell.swift */,
+				4C4BF1B31ED02B2800AD7044 /* KeyCell.xib */,
+				4C4BF1B61ED02B9B00AD7044 /* KeySectionController.swift */,
+				4CBCC0F21ECDE78800B8522C /* PasscodeViewController.swift */,
+				4CBCC1101ECDF01E00B8522C /* PasscodeViewReactor.swift */,
+				4C3CD4C61ED09A4F00B3FBD7 /* RxIGListAdapterDataSource.swift */,
+				4CBCC0F41ECDE78800B8522C /* Main.storyboard */,
+				4CBCC0F71ECDE78800B8522C /* Assets.xcassets */,
+				4CBCC0F91ECDE78800B8522C /* LaunchScreen.storyboard */,
+				4CBCC0FC1ECDE78800B8522C /* Info.plist */,
+			);
+			path = Passcode;
+			sourceTree = "<group>";
+		};
+		4CBCC1041ECDE78800B8522C /* PasscodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBCC1051ECDE78800B8522C /* PasscodeTests.swift */,
+				4CBCC1071ECDE78800B8522C /* Info.plist */,
+			);
+			path = PasscodeTests;
+			sourceTree = "<group>";
+		};
+		AFA3B798769A4ECC1389C30C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA607C5C71663F7F3416DD /* Pods-Passcode.debug.xcconfig */,
+				BB1E9C33C6F9122D62082B3D /* Pods-Passcode.release.xcconfig */,
+				E8FA8563A6C27970CFE7F06F /* Pods-Passcode-PasscodeTests.debug.xcconfig */,
+				0C5FC3B273A2F8B5A25D54C6 /* Pods-Passcode-PasscodeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBCC0EC1ECDE78800B8522C /* Passcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBCC10A1ECDE78800B8522C /* Build configuration list for PBXNativeTarget "Passcode" */;
+			buildPhases = (
+				8353567895A7C2160D4DB062 /* [CP] Check Pods Manifest.lock */,
+				4CBCC0E91ECDE78800B8522C /* Sources */,
+				4CBCC0EA1ECDE78800B8522C /* Frameworks */,
+				4CBCC0EB1ECDE78800B8522C /* Resources */,
+				0499F5D53A05D5E6CAC55D9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passcode;
+			productName = Passcode;
+			productReference = 4CBCC0ED1ECDE78800B8522C /* Passcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBCC1001ECDE78800B8522C /* PasscodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBCC10D1ECDE78800B8522C /* Build configuration list for PBXNativeTarget "PasscodeTests" */;
+			buildPhases = (
+				8AD260E3BCB2F20409588FAE /* [CP] Check Pods Manifest.lock */,
+				4CBCC0FD1ECDE78800B8522C /* Sources */,
+				4CBCC0FE1ECDE78800B8522C /* Frameworks */,
+				4CBCC0FF1ECDE78800B8522C /* Resources */,
+				B1A00FD390142CC5E41A9C6A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBCC1031ECDE78800B8522C /* PBXTargetDependency */,
+			);
+			name = PasscodeTests;
+			productName = PasscodeTests;
+			productReference = 4CBCC1011ECDE78800B8522C /* PasscodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBCC0E51ECDE78800B8522C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Cruz;
+				TargetAttributes = {
+					4CBCC0EC1ECDE78800B8522C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YBC6QZE5G7;
+						ProvisioningStyle = Automatic;
+					};
+					4CBCC1001ECDE78800B8522C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YBC6QZE5G7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CBCC0EC1ECDE78800B8522C;
+					};
+				};
+			};
+			buildConfigurationList = 4CBCC0E81ECDE78800B8522C /* Build configuration list for PBXProject "Passcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 4CBCC0E41ECDE78800B8522C;
+			productRefGroup = 4CBCC0EE1ECDE78800B8522C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBCC0EC1ECDE78800B8522C /* Passcode */,
+				4CBCC1001ECDE78800B8522C /* PasscodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBCC0EB1ECDE78800B8522C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBCC0FB1ECDE78800B8522C /* LaunchScreen.storyboard in Resources */,
+				4CBCC0F81ECDE78800B8522C /* Assets.xcassets in Resources */,
+				4CBCC0F61ECDE78800B8522C /* Main.storyboard in Resources */,
+				4C4BF1B51ED02B2800AD7044 /* KeyCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBCC0FF1ECDE78800B8522C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0499F5D53A05D5E6CAC55D9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Passcode/Pods-Passcode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Device/Device.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceLayout/DeviceLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Device.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Passcode/Pods-Passcode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8353567895A7C2160D4DB062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Passcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD260E3BCB2F20409588FAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Passcode-PasscodeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A00FD390142CC5E41A9C6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Passcode-PasscodeTests/Pods-Passcode-PasscodeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Device/Device.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceLayout/DeviceLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxExpect/RxExpect.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Device.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxExpect.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Passcode-PasscodeTests/Pods-Passcode-PasscodeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBCC0E91ECDE78800B8522C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBCC1111ECDF01E00B8522C /* PasscodeViewReactor.swift in Sources */,
+				4CBCC0F31ECDE78800B8522C /* PasscodeViewController.swift in Sources */,
+				4CBCC0F11ECDE78800B8522C /* AppDelegate.swift in Sources */,
+				4C4BF1B71ED02B9B00AD7044 /* KeySectionController.swift in Sources */,
+				4C3CD4C71ED09A4F00B3FBD7 /* RxIGListAdapterDataSource.swift in Sources */,
+				4C4BF1B41ED02B2800AD7044 /* KeyCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBCC0FD1ECDE78800B8522C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBCC1061ECDE78800B8522C /* PasscodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBCC1031ECDE78800B8522C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBCC0EC1ECDE78800B8522C /* Passcode */;
+			targetProxy = 4CBCC1021ECDE78800B8522C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CBCC0F41ECDE78800B8522C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBCC0F51ECDE78800B8522C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBCC0F91ECDE78800B8522C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBCC0FA1ECDE78800B8522C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBCC1081ECDE78800B8522C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4CBCC1091ECDE78800B8522C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBCC10B1ECDE78800B8522C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DA607C5C71663F7F3416DD /* Pods-Passcode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				INFOPLIST_FILE = Passcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cruz.Passcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4CBCC10C1ECDE78800B8522C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1E9C33C6F9122D62082B3D /* Pods-Passcode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				INFOPLIST_FILE = Passcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cruz.Passcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		4CBCC10E1ECDE78800B8522C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FA8563A6C27970CFE7F06F /* Pods-Passcode-PasscodeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				INFOPLIST_FILE = PasscodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cruz.PasscodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passcode.app/Passcode";
+			};
+			name = Debug;
+		};
+		4CBCC10F1ECDE78800B8522C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5FC3B273A2F8B5A25D54C6 /* Pods-Passcode-PasscodeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				INFOPLIST_FILE = PasscodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cruz.PasscodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passcode.app/Passcode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBCC0E81ECDE78800B8522C /* Build configuration list for PBXProject "Passcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBCC1081ECDE78800B8522C /* Debug */,
+				4CBCC1091ECDE78800B8522C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBCC10A1ECDE78800B8522C /* Build configuration list for PBXNativeTarget "Passcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBCC10B1ECDE78800B8522C /* Debug */,
+				4CBCC10C1ECDE78800B8522C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBCC10D1ECDE78800B8522C /* Build configuration list for PBXNativeTarget "PasscodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBCC10E1ECDE78800B8522C /* Debug */,
+				4CBCC10F1ECDE78800B8522C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBCC0E51ECDE78800B8522C /* Project object */;
+}
